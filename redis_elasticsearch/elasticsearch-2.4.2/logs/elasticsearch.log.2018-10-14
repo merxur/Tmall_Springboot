@@ -1,0 +1,14 @@
+[2018-10-14 10:43:44,025][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-10-14 10:43:44,252][INFO ][node                     ] [Destroyer of Demons] version[2.4.2], pid[13872], build[161c65a/2016-11-17T11:51:03Z]
+[2018-10-14 10:43:44,253][INFO ][node                     ] [Destroyer of Demons] initializing ...
+[2018-10-14 10:43:44,774][INFO ][plugins                  ] [Destroyer of Demons] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-10-14 10:43:44,798][INFO ][env                      ] [Destroyer of Demons] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [165.2gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-10-14 10:43:44,798][INFO ][env                      ] [Destroyer of Demons] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-10-14 10:43:45,287][INFO ][bootstrap                ] running graceful exit on windows
+[2018-10-14 10:43:48,803][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-10-14 10:43:49,018][INFO ][node                     ] [Abner Jenkins] version[2.4.2], pid[16316], build[161c65a/2016-11-17T11:51:03Z]
+[2018-10-14 10:43:49,018][INFO ][node                     ] [Abner Jenkins] initializing ...
+[2018-10-14 10:43:49,494][INFO ][plugins                  ] [Abner Jenkins] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-10-14 10:43:49,512][INFO ][env                      ] [Abner Jenkins] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [165.2gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-10-14 10:43:49,512][INFO ][env                      ] [Abner Jenkins] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-10-14 10:43:49,874][INFO ][bootstrap                ] running graceful exit on windows

@@ -1,0 +1,20 @@
+[2018-10-13 13:55:45,797][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-10-13 13:55:46,075][INFO ][node                     ] [Lemuel Dorcas] version[2.4.2], pid[1432], build[161c65a/2016-11-17T11:51:03Z]
+[2018-10-13 13:55:46,075][INFO ][node                     ] [Lemuel Dorcas] initializing ...
+[2018-10-13 13:55:46,691][INFO ][plugins                  ] [Lemuel Dorcas] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-10-13 13:55:46,724][INFO ][env                      ] [Lemuel Dorcas] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [165.2gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-10-13 13:55:46,725][INFO ][env                      ] [Lemuel Dorcas] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-10-13 13:55:49,955][INFO ][node                     ] [Lemuel Dorcas] initialized
+[2018-10-13 13:55:49,956][INFO ][node                     ] [Lemuel Dorcas] starting ...
+[2018-10-13 13:55:50,586][INFO ][transport                ] [Lemuel Dorcas] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-10-13 13:55:50,589][INFO ][discovery                ] [Lemuel Dorcas] elasticsearch/OCylKULsRX6VZoobVXo-nA
+[2018-10-13 13:55:54,636][INFO ][cluster.service          ] [Lemuel Dorcas] new_master {Lemuel Dorcas}{OCylKULsRX6VZoobVXo-nA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-10-13 13:55:54,749][INFO ][gateway                  ] [Lemuel Dorcas] recovered [3] indices into cluster_state
+[2018-10-13 13:55:55,310][INFO ][cluster.routing.allocation] [Lemuel Dorcas] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2018-10-13 13:55:55,320][INFO ][http                     ] [Lemuel Dorcas] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-10-13 13:55:55,320][INFO ][node                     ] [Lemuel Dorcas] started
+[2018-10-13 13:57:10,217][INFO ][bootstrap                ] running graceful exit on windows
+[2018-10-13 13:57:10,217][INFO ][node                     ] [Lemuel Dorcas] stopping ...
+[2018-10-13 13:57:10,279][INFO ][node                     ] [Lemuel Dorcas] stopped
+[2018-10-13 13:57:10,279][INFO ][node                     ] [Lemuel Dorcas] closing ...
+[2018-10-13 13:57:10,283][INFO ][node                     ] [Lemuel Dorcas] closed

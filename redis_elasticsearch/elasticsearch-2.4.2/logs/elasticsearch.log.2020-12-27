@@ -1,0 +1,105 @@
+[2020-12-27 23:17:03,654][INFO ][node                     ] [Hypnotia] version[2.4.2], pid[10500], build[161c65a/2016-11-17T11:51:03Z]
+[2020-12-27 23:17:03,657][INFO ][node                     ] [Hypnotia] initializing ...
+[2020-12-27 23:17:04,038][INFO ][plugins                  ] [Hypnotia] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2020-12-27 23:17:04,053][INFO ][env                      ] [Hypnotia] using [1] data paths, mounts [[(C:)]], net usable_space [714.6gb], net total_space [930.7gb], spins? [unknown], types [NTFS]
+[2020-12-27 23:17:04,054][INFO ][env                      ] [Hypnotia] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-27 23:17:05,586][INFO ][node                     ] [Hypnotia] initialized
+[2020-12-27 23:17:05,587][INFO ][node                     ] [Hypnotia] starting ...
+[2020-12-27 23:17:06,329][INFO ][transport                ] [Hypnotia] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-12-27 23:17:06,333][INFO ][discovery                ] [Hypnotia] elasticsearch/ZQxhkA_3R2qqq8g-ieYkaA
+[2020-12-27 23:17:10,850][INFO ][cluster.service          ] [Hypnotia] new_master {Hypnotia}{ZQxhkA_3R2qqq8g-ieYkaA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2020-12-27 23:17:11,145][INFO ][gateway                  ] [Hypnotia] recovered [3] indices into cluster_state
+[2020-12-27 23:17:11,540][INFO ][http                     ] [Hypnotia] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-12-27 23:17:11,540][INFO ][node                     ] [Hypnotia] started
+[2020-12-27 23:17:11,586][INFO ][cluster.routing.allocation] [Hypnotia] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2020-12-27 23:17:55,189][INFO ][bootstrap                ] running graceful exit on windows
+[2020-12-27 23:17:55,189][INFO ][node                     ] [Hypnotia] stopping ...
+[2020-12-27 23:17:55,242][INFO ][node                     ] [Hypnotia] stopped
+[2020-12-27 23:17:55,243][INFO ][node                     ] [Hypnotia] closing ...
+[2020-12-27 23:17:55,247][INFO ][node                     ] [Hypnotia] closed
+[2020-12-27 23:39:08,278][INFO ][node                     ] [Onslaught] version[2.4.2], pid[6956], build[161c65a/2016-11-17T11:51:03Z]
+[2020-12-27 23:39:08,279][INFO ][node                     ] [Onslaught] initializing ...
+[2020-12-27 23:39:08,637][INFO ][plugins                  ] [Onslaught] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2020-12-27 23:39:08,652][INFO ][env                      ] [Onslaught] using [1] data paths, mounts [[(C:)]], net usable_space [714.2gb], net total_space [930.7gb], spins? [unknown], types [NTFS]
+[2020-12-27 23:39:08,653][INFO ][env                      ] [Onslaught] heap size [989.8mb], compressed ordinary object pointers [true]
+[2020-12-27 23:39:10,084][INFO ][node                     ] [Onslaught] initialized
+[2020-12-27 23:39:10,084][INFO ][node                     ] [Onslaught] starting ...
+[2020-12-27 23:39:10,713][INFO ][transport                ] [Onslaught] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-12-27 23:39:10,716][INFO ][discovery                ] [Onslaught] elasticsearch/3mnx-9EeTF6j86RSkBG1nw
+[2020-12-27 23:39:12,427][INFO ][bootstrap                ] running graceful exit on windows
+[2020-12-27 23:39:12,427][INFO ][node                     ] [Onslaught] stopping ...
+[2020-12-27 23:39:12,731][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_4#}{127.0.0.1}{127.0.0.1:9303}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,733][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_2#}{127.0.0.1}{127.0.0.1:9301}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:925)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_10#}{::1}{[::1]:9304}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_9#}{::1}{[::1]:9303}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_3#}{127.0.0.1}{127.0.0.1:9302}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:925)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_8#}{::1}{[::1]:9302}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_7#}{::1}{[::1]:9301}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,732][WARN ][discovery.zen.ping.unicast] [Onslaught] [1] failed send ping to {#zen_unicast_5#}{127.0.0.1}{127.0.0.1:9304}
+java.lang.IllegalStateException: can't add nodes to a stopped transport
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:916)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNodeLight(NettyTransport.java:906)
+	at org.elasticsearch.transport.TransportService.connectToNodeLight(TransportService.java:267)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$3.run(UnicastZenPing.java:395)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-12-27 23:39:12,747][INFO ][node                     ] [Onslaught] stopped
+[2020-12-27 23:39:12,748][INFO ][node                     ] [Onslaught] closing ...
+[2020-12-27 23:39:12,751][INFO ][node                     ] [Onslaught] closed

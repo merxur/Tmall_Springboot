@@ -1,0 +1,20 @@
+[2018-10-21 09:13:47,622][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-10-21 09:13:47,829][INFO ][node                     ] [Nebula] version[2.4.2], pid[6616], build[161c65a/2016-11-17T11:51:03Z]
+[2018-10-21 09:13:47,829][INFO ][node                     ] [Nebula] initializing ...
+[2018-10-21 09:13:48,271][INFO ][plugins                  ] [Nebula] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-10-21 09:13:48,292][INFO ][env                      ] [Nebula] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [162.4gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-10-21 09:13:48,294][INFO ][env                      ] [Nebula] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-10-21 09:13:50,695][INFO ][node                     ] [Nebula] initialized
+[2018-10-21 09:13:50,695][INFO ][node                     ] [Nebula] starting ...
+[2018-10-21 09:13:51,307][INFO ][transport                ] [Nebula] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-10-21 09:13:51,313][INFO ][discovery                ] [Nebula] elasticsearch/2MpcHKLRQTG4aBbqaXzrjA
+[2018-10-21 09:13:55,343][INFO ][cluster.service          ] [Nebula] new_master {Nebula}{2MpcHKLRQTG4aBbqaXzrjA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-10-21 09:13:55,420][INFO ][gateway                  ] [Nebula] recovered [3] indices into cluster_state
+[2018-10-21 09:13:55,827][INFO ][cluster.routing.allocation] [Nebula] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0], [.kibana][0]] ...]).
+[2018-10-21 09:13:55,946][INFO ][http                     ] [Nebula] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-10-21 09:13:55,946][INFO ][node                     ] [Nebula] started
+[2018-10-21 09:14:15,026][INFO ][bootstrap                ] running graceful exit on windows
+[2018-10-21 09:14:15,026][INFO ][node                     ] [Nebula] stopping ...
+[2018-10-21 09:14:15,090][INFO ][node                     ] [Nebula] stopped
+[2018-10-21 09:14:15,091][INFO ][node                     ] [Nebula] closing ...
+[2018-10-21 09:14:15,096][INFO ][node                     ] [Nebula] closed
